@@ -1,0 +1,400 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(219, 214, 214); 
+}
+header {
+    height: 50px; 
+    background-color: rgb(99, 25, 99);;
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+
+}
+a {
+    color: yellow;
+    padding: 30px;
+    margin: 60px;
+    text-decoration: none;
+    background-color: rgb(99, 25, 99);
+    border-radius: 20%;
+}
+
+.logo{
+    height: 180px;
+    width: 250px;
+}
+h1{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: rgb(170, 170, 53);
+}
+main{
+    
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;    
+}
+/* GRID INDEX */
+.grid{
+    display:grid;
+    grid-template-areas: 'uno dos dos cuatro'
+                        'cinco dos dos ocho';
+    
+}
+
+.c1{
+    grid-area: dos;
+    padding: 30px;
+    margin: 5px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.c2{
+    grid-area: uno;
+    padding: 30px;
+    margin: 5px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.c3{
+    grid-area: cuatro;
+    padding: 30px;
+    margin: 5px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.c4{
+    grid-area: cinco;
+    padding: 30px;
+    margin: 5px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10%;
+
+}
+.c5{
+    grid-area: ocho;
+    padding: 30px;
+    margin: 5px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.listindex{
+    color:rgb(136, 134, 134);
+}
+
+.uniforme{
+    height: 200px;
+    width: 250px;
+}
+
+.estadio{
+    height: 180px;
+    width: 250px;
+}
+
+.anillo{
+    height: 100px;
+    width: 200px;
+}
+/* FOOTER */
+footer{
+    background-color: rgb(99, 25, 99);
+}
+
+.footer{
+    text-align: right;
+    font-size: 10px;
+}
+
+div{
+    text-align: center;
+}
+
+.redes{
+    margin: 10px;
+    padding:10px;
+}
+
+h2{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+h3{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.historia{
+
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;    
+}
+
+.gridnoticias{
+    display: grid;
+    grid-template-areas: 'uno dos';
+    padding: 5px;
+    margin: 5px;
+}
+
+.noticias1{
+    grid-area: uno;
+    padding: 30px;
+    margin: 15px;
+}
+
+.noticias2{
+    grid-area: dos;
+    padding: 30px;
+    margin: 15px;
+}
+
+.historiatext{
+    margin: 20px;
+    text-align: center;
+}
+
+div{
+    padding: 30px;
+    margin: 15px;
+}
+/* GRID HTML PLANTILLA */
+.lideres{
+    display:grid;
+    grid-template-areas: 'uno dos tres cuatro';
+}
+
+.l1{
+    grid-column: uno;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.l2{
+    grid-column: dos;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.l3{
+    grid-column: tres;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.l4{
+    grid-column: cuatro;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10%;
+}
+.plantilla{
+    display: grid;
+    grid-template-areas: 'uno dos tres cuatro'
+                        'cinco seis siete ocho';
+}
+
+.j1{
+    grid-area: uno;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+}
+
+.j2{
+    grid-area: dos;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+}
+.j3{
+    grid-area: tres;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+}
+.j4{
+    grid-area: cuatro;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+}
+.j5{
+    grid-area: cinco;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+}
+.j6{
+    grid-area: seis;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+}
+.j7{
+    grid-area: siete;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+}
+.j8{
+    grid-area: ocho;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+}
+
+.jugadores{
+    border-radius: 20%;
+    background-color: white;
+    border: 3px solid black;
+}
+p{
+    color:rgb(136, 134, 134); 
+}
+.lista{
+    color:rgb(136, 134, 134);
+}
+.video{
+    padding: 40px;
+}
+.estadisticas{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;   
+}
+
+.cajas{
+    padding: 10px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: white;
+    justify-content: center;
+}
+
+th{
+    background-color: white;
+}
+
+.tabla1{
+    background-color: rgb(211, 205, 205);
+}
+
+.tabla2{
+    background-color: whitesmoke;
+}
+.tableest{
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1100px){
+
+    .grid{
+        grid-template-areas: 'uno dos dos '
+                        'cinco dos dos'
+                        'cuatro cuatro ocho';
+    }
+    .gridnoticias{
+        grid-template-areas: 'uno'
+                            'dos';
+    }
+    .campeonatos{
+        width: 100%;
+    }
+    header{
+        height: 80px;
+    }
+}
+@media screen and (max-width: 576px){
+
+    .grid{
+        grid-template-areas: ' dos '
+                            'uno'
+                            'cinco'
+                            'cuatro'
+                            'ocho';
+    }
+    .uniforme{
+        width:100%;
+    }
+    .estadio{
+        width: 100%;   
+    }
+    .anillo{
+        width: 100%;
+    }
+    .video{
+        width: 100%;
+    }
+
+    .gridnoticias{
+        grid-template-areas: 'uno'
+                            'dos';
+    }
+    .noticiasimg{
+        width: 100%;
+    }
+
+    .lideres{
+        grid-template-areas: 'uno'
+                            'dos'
+                            'tres'
+                            'cuatro';
+    }
+    
+    .plantilla{
+        grid-template-areas: 'uno dos'
+                            'tres cuatro'
+                            'cinco seis'
+                            'siete ocho';
+    }
+    .estadisticas{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+    .campeonatos{
+        width: 100%;
+    }
+    header{
+        height: 120px;
+    }
+}
