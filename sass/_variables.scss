@@ -1,0 +1,12 @@
+@mixin titulos($texto1 , $relleno1, $relleno2, $color){
+    text-align: $texto1;
+    padding-top: $relleno1;
+    padding-bottom: $relleno2;
+    color: $color;
+}
+
+@mixin subtitulos( $relleno, $margen, $texto){
+    padding: $relleno;
+    margin: $margen;
+    text-align: $texto;
+}

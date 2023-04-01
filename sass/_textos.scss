@@ -1,0 +1,24 @@
+h1{
+    @include titulos(center, 10px, 10px, rgb(170, 170, 53) );
+}
+
+h2{
+    @include subtitulos(20px, 10px, center);
+}
+
+h3{
+    @include subtitulos(20px, 10px, center);
+}
+
+.historia{
+
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;    
+}
+
+.historiatext{
+    margin: 20px;
+    text-align: center;
+}
+

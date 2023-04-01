@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(219, 214, 214);   
+}
+
+header {
+    height: 50px; 
+    background-color: rgb(99, 25, 99);
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+a {
+    color: yellow;
+    padding: 30px;
+    margin: 60px;
+    text-decoration: none;
+    background-color: rgb(99, 25, 99);
+    border-radius: 20%;
+}
+
+main{
+    
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;    
+}
+
+footer{
+    background-color: rgb(99, 25, 99);
+    
+    .footer{
+        text-align: right;
+        font-size: 10px;
+    }
+    
+    .redes{
+        margin: 10px;
+        padding:10px;
+    }
+}
+
+.listindex{
+    color:rgb(136, 134, 134);
+}
+
+div{
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+}
+
+p{
+    color:rgb(136, 134, 134); 
+}
+
+.lista{
+    color:rgb(136, 134, 134);
+}
+.video{
+    padding: 40px;
+}
+.estadisticas{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;  
+    
+    .cajas{
+        padding: 10px;
+        margin: 50px;
+        background-color: white;
+        border-radius: 10%;
+    }
+        
+    th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        border-radius: 20%;
+        background-color: white;
+        justify-content: center;
+    }
+    
+    th{
+        background-color: white;
+    }
+    
+    .tabla1{
+        background-color: rgb(211, 205, 205);
+    }
+    
+    .tabla2{
+        background-color: whitesmoke;
+    }
+
+    .tableest{
+        margin: 0 auto;
+    }
+}
