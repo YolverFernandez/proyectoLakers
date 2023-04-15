@@ -10,6 +10,7 @@ body {
 header {
   height: 50px;
   background-color: rgb(99, 25, 99);
+  padding-top: 10px;
 }
 
 ul li {
@@ -37,7 +38,7 @@ footer {
 }
 footer .footer {
   text-align: right;
-  font-size: 10px;
+  font-size: 12px;
 }
 footer .redes {
   margin: 10px;
