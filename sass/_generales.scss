@@ -44,8 +44,8 @@ footer{
     }
     
     .redes{
-        margin: 10px;
-        padding: 10px;
+        margin: 5px;
+        padding: 5px;
     }
 }
 
@@ -75,7 +75,25 @@ p{
     grid-template-rows: auto auto;
     justify-content: center;  
     
-    .cajas{
+    .t1{
+        padding: 10px;
+        margin: 50px;
+        background-color: white;
+        border-radius: 10%;
+    }
+    .t2{
+        padding: 10px;
+        margin: 50px;
+        background-color: white;
+        border-radius: 10%;
+    }
+    .t3{
+        padding: 10px;
+        margin: 50px;
+        background-color: white;
+        border-radius: 10%;
+    }
+    .t4{
         padding: 10px;
         margin: 50px;
         background-color: white;

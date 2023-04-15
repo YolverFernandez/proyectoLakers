@@ -180,3 +180,23 @@
         justify-content: center;
     }
 }
+
+.estadisticas{
+    display: grid;
+    grid-template-areas: 'uno dos'
+                        'tres cuatro';
+
+    .t1{
+        grid-area: uno;
+    }
+    .t2{
+        grid-area: dos;
+    }
+    .t3{
+        grid-area: tres;
+    }
+    .t4{
+        grid-area: cuatro;
+    }
+
+}
